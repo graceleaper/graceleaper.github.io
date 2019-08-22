@@ -34,6 +34,7 @@ html, body {
 
 #header p {
     color: white;
+    font-size: 20px;
 }
 
 nav {
@@ -157,10 +158,12 @@ iframe {
 #contact {
     text-align: center;
     font-family: 'Muli', sans-serif;
-    margin-bottom: 20px;
+    margin-top: -70px;
+    margin-bottom: 30px;
 }
 
 #contact img {
+    margin-top: -90px;
     margin-left: auto;
     margin-right: auto;
 }
