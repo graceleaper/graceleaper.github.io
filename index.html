@@ -38,12 +38,12 @@
       </p>
     </div>
     <div id="skills">
-      <h2>Skills</h2>
+      <div id="skills-background"><h2>Skills</h2></div>
       <p>JavaScript, HTML5, CSS3, Node/Express, React/Redux, SQL/Sequelize</p>
       <img alt="skills" src="/images/skills.jpg"/>
     </div>
     <div id="projects">
-      <h2>Projects</h2>
+      <div id="projects-background"><h2>Projects</h2></div>
       <h3>Scrapbook Studio</h3>
       <p>A space where users can create digital scrapbooks.</p>
       <p>Scrapbook Studio is an online studio space where users
@@ -51,6 +51,7 @@
         Users can add new scrapbooks and edit existing ones.
         Features of the editing space include resizing and rotating
         media, adding images from a media pool, and creating multiple pages.</p>
+        <p>Technologies used: Node/Express, PostgreSQL, Sequelize, React, Redux, Konva, Cloudinary, and Bulma</p>
       <iframe
         width="560"
         height="315"
@@ -60,6 +61,7 @@
         allowfullscreen
       ></iframe>
       <h3>What's the Scoop?</h3>
+      <p>Progressive Web App (PWA) made with React and the News API</p>
       <p>A study tool to promote media literacy for teens.
         Users are given a simulated news feed, with a
         combination of credible and questionable news articles.
@@ -73,6 +75,7 @@
         <h3>BOOKS-A-LOT</h3>
         <p>Online bookstore application. Manages logged in and guest users along with their carts, placing orders, and past orders</p>
         <img class="project-shots" alt="project screenshot" src="/images/booksalot.png" />
+        <p>Technologies used: Node/Express, PostgreSQL, Sequelize, React, Redux, and Bulma</p>
       </div>
     <div id="contact">
       <h2>Contact</h2>
@@ -91,10 +94,10 @@
 
       function scrollFunction() {
         if (
-          document.body.scrollTop > 80 ||
-          document.documentElement.scrollTop > 80
+          document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500
         ) {
-          document.getElementById("navbar").style.backgroundColor = "white";
+          document.getElementById("navbar").style.backgroundColor = "black";
         } else {
           document.getElementById("navbar").style.backgroundColor = "transparent";
         }
