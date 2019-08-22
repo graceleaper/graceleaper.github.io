@@ -70,13 +70,15 @@ a:hover {
     color: slategray;
 }
 
-h2, h3 {
-    text-align: center;
-}
-
 h2 {
+    text-align: center;
     font-size: 2.5em;
     color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #about, #about h2, #contact h2 {
