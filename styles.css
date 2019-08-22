@@ -186,7 +186,7 @@ iframe {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   #header {
     background-image: url("/images/header.jpg");
     background-attachment: scroll;
@@ -209,6 +209,7 @@ iframe {
   #projects-background {
     margin-right: -38px;
     margin-left: -38px;
+    background-attachment: scroll;
   }
 
   .project-shots {
@@ -248,12 +249,12 @@ iframe {
   #header,
   #skills-background,
   #projects-background {
-    background-attachment: none;
+    background-attachment: scroll;
   }
 }
 
 @media only screen and (orientation: landscape) {
-  #header {
+  #header, #skills-background, #projects-background {
     background-attachment: scroll;
   }
 }
