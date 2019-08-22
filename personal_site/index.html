@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grace Lee</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind|Muli|Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <nav id="navbar">
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#projects">Projects</a>
+        <a class="link" href="#contact">Contact</a>
+      </nav>
+      <h1 id="header-name">Grace Lee</h1>
+      <p>Software Engineer | New York, NY</p>
+    </div>
+    <div id="about">
+      <h2>About Me</h2>
+      <img id="headshot" alt="headshot" src="/images/headshot.png" />
+      <p class="para">
+        While working as an educational consultant, I was drawn to coding while
+        taking an object-oriented programming course at Teachers College,
+        Columbia University. I am still excited about coaching young people, but
+        I love how programming allows me to problem-solve, create, and learn
+        with others. I also earned my certificate in Front-End Web Development
+        at Harvard Extension School. All the while, I volunteered to lead high
+        school and university students in the development of websites for
+        non-profits. Now, I am searching for a software engineering role that
+        involves developing products to improve the daily lives of many people.
+      </p>
+    </div>
+    <div id="skills">
+      <h2>Skills</h2>
+      <p>JavaScript, HTML5, CSS3, Node/Express, React/Redux, SQL/Sequelize</p>
+      <img alt="skills" src="/images/skills.jpg"/>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+      <h3>Scrapbook Studio</h3>
+      <p>A space where users can create digital scrapbooks.</p>
+      <p>Scrapbook Studio is an online studio space where users
+        can create a shared scrapbook with text and images.
+        Users can add new scrapbooks and edit existing ones.
+        Features of the editing space include resizing and rotating
+        media, adding images from a media pool, and creating multiple pages.</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xyr-WcSvTys"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h3>What's the Scoop?</h3>
+      <p>A study tool to promote media literacy for teens.
+        Users are given a simulated news feed, with a
+        combination of credible and questionable news articles.
+        Users can then click to "Share" or "Fact-Check" articles.
+        Feedback is given: for reliable sources, users will be given
+        a link to read more of the article. For low credibility pieces,
+        users will be provided a link that explains a report detailing
+        why the media outlet may be unreliable.
+        </p>
+        <img class="project-shots" alt="project screenshot 2" src="/images/whatsthescoop2.png" />
+        <h3>BOOKS-A-LOT</h3>
+        <p>Online bookstore application. Manages logged in and guest users along with their carts, placing orders, and past orders</p>
+        <img class="project-shots" alt="project screenshot" src="/images/booksalot.png" />
+      </div>
+    <div id="contact">
+      <h2>Contact</h2>
+      <a target="_blank" href="https://github.com/graceleaper">
+        <img height="50px" alt="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/igracelee/">
+        <img height="40px" alt="github" src="https://image.flaticon.com/icons/png/512/61/61109.png"/>
+      </a>
+      <p>Let's connect!</p>
+    </div>
+    <script>
+      window.onscroll = function() {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80
+        ) {
+          document.getElementById("navbar").style.backgroundColor = "white";
+        } else {
+          document.getElementById("navbar").style.backgroundColor = "transparent";
+        }
+      }
+    </script>
+  </body>
+</html>
