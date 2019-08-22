@@ -37,6 +37,11 @@ html, body {
     font-size: 20px;
 }
 
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 nav {
     margin-top: 0;
     padding-top: 30px;
