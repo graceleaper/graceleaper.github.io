@@ -198,6 +198,11 @@ iframe {
     margin-left: -8px;
   }
 
+  #down-arrow {
+    padding-top: 120px;
+    width: 50px;
+  }
+
   #projects img,
   #skills-background,
   #projects-background {
@@ -256,5 +261,10 @@ iframe {
 @media only screen and (orientation: landscape) {
   #header, #skills-background, #projects-background {
     background-attachment: scroll;
+  }
+
+  #down-arrow {
+    padding-top: 10px;
+    width: 30px;
   }
 }
