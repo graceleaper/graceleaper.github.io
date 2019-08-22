@@ -1,13 +1,14 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 #header {
@@ -24,153 +25,224 @@ html, body {
 }
 
 #header-name {
-    padding-top: 300px;
-    color: white;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    margin-top: 0;
+  padding-top: 250px;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin-top: 0;
 }
 
 #header p {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 p {
-    padding-left: 15%;
-    padding-right: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 nav {
-    margin-top: 0;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-family: 'Hind', 'sans-serif';
-    font-size: 15px;;
-    text-transform: uppercase;
-    text-align: center;
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: "Hind", "sans-serif";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 nav a {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-a:visited, a:link {
-    text-decoration: none;
-    color: white;
+a:visited,
+a:link {
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    color: slategray;
+  color: slategray;
 }
 
 h2 {
-    text-align: center;
-    font-size: 2.5em;
-    color: white;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
 }
 
 h3 {
-    text-align: center;
-    font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-#about, #about h2, #contact h2 {
-    padding: 30px;
-    color: black;
+#down-arrow {
+    padding-top: 200px;
+    width: 50px;
+}
+
+#about,
+#about h2,
+#contact h2 {
+  padding: 30px;
+  color: black;
 }
 
 #headshot {
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about p {
-    column-count: 2;
-    font-family: 'Muli', sans-serif;
+  column-count: 2;
+  font-family: "Muli", sans-serif;
 }
 
 iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #skills-background {
-    background-image: url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1311&q=80");
+  background-image: url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1311&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+#skills-background h2 {
+  padding-top: 200px;
+}
+
+#skills img {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills p {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+}
+
+#projects-background {
+  background-image: url("https://images.unsplash.com/photo-1535598745644-bc7913bb1a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-right: -38px;
+  margin-left: -38px;
+}
+
+#projects-background h2 {
+  padding-top: 200px;
+}
+
+#projects {
+  padding: 30px;
+}
+
+#projects p {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+}
+
+.project-shots {
+  width: 560px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  margin-top: -70px;
+  margin-bottom: 30px;
+}
+
+#contact img {
+  margin-top: -90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+
+  #header {
+    background-image: url("https://images.unsplash.com/5/unsplash-kitsune-3.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 100%;
     margin-right: -8px;
     margin-left: -8px;
   }
 
-  #skills-background h2 {
-      padding-top: 200px;
+  #projects img,
+  #skills-background,
+  #projects-background {
+    height: 100%;
+    margin-right: -8px;
+    margin-left: -8px;
   }
 
-#skills img {
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#skills p {
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-}
-
-#projects-background {
-    background-image: url("https://images.unsplash.com/photo-1535598745644-bc7913bb1a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+  #projects-background {
     margin-right: -38px;
     margin-left: -38px;
   }
 
-  #projects-background h2 {
-      padding-top: 200px;
-  }
-
-#projects {
-    padding: 30px;
-}
-
-#projects p {
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-}
-
-.project-shots {
-    width: 560px;
+  .project-shots {
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-#contact {
+  #skills img {
+    width: 80%;
+  }
+
+  #skills-background h2 {
+    padding-top: 50px;
+  }
+
+  #projects-background h2 {
+    padding-top: 50px;
+  }
+
+  iframe {
+    width: 60%;
+    height: 50%;
+  }
+
+  #about p {
+    column-count: 1;
+    padding: 10px;
     text-align: center;
-    font-family: 'Muli', sans-serif;
-    margin-top: -70px;
-    margin-bottom: 30px;
-}
+  }
 
-#contact img {
-    margin-top: -90px;
-    margin-left: auto;
-    margin-right: auto;
+  #projects p {
+    padding: 10px;
+  }
 }
