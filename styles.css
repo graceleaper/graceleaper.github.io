@@ -245,4 +245,8 @@ iframe {
   #projects p {
     padding: 10px;
   }
+
+  #header, #skills-background, #projects-background {
+    background-attachment: scroll;
+  }
 }
