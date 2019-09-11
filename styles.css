@@ -151,6 +151,11 @@ iframe {
   margin-left: -38px;
 }
 
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 #projects-background h2 {
   padding-top: 200px;
 }
@@ -171,10 +176,31 @@ iframe {
   margin-right: auto;
 }
 
+.project-links {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  padding: 1em;
+  font-family: "Muli", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button a:visited {
+  color: black;
+}
+
 #contact {
   text-align: center;
   font-family: "Muli", sans-serif;
-  margin-top: -70px;
+  margin-top: -50px;
   margin-bottom: 30px;
 }
 
@@ -266,5 +292,15 @@ iframe {
   #down-arrow {
     padding-top: 10px;
     width: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-image {
+    text-align: center;
+  }
+
+  .project-shots {
+    display: inline-block;
   }
 }
