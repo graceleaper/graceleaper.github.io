@@ -195,12 +195,12 @@ hr {
 
 button a {
   color: black !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 button a:visited {
   color: black !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #contact {
