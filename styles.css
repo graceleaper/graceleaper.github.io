@@ -193,6 +193,10 @@ hr {
   cursor: pointer;
 }
 
+button a {
+  color: black !important;
+}
+
 button a:visited {
   color: black !important;
 }
