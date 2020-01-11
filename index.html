@@ -19,7 +19,9 @@
         <a class="link" href="#projects">Projects</a>
         <a class="link" href="#contact">Contact</a>
       </nav>
+      <div id="my-info">
       <h1 id="header-name">Grace Lee</h1>
+      <p>Software Engineer</p>
       <p>New York, NY</p>
       <a href="#about">
         <img
@@ -29,29 +31,36 @@
         />
       </a>
     </div>
+    </div>
     <div id="about">
-      <h2>About Me</h2>
+      <h2>ABOUT ME</h2>
       <img id="headshot" alt="headshot" src="/images/headshot.png" />
       <p class="para">
         While working as an educational consultant, I was drawn to coding while
         taking an object-oriented programming course at Teachers College,
         Columbia University. I am still excited about coaching young people, but
         I love how programming allows me to problem-solve, create, and learn
-        with others. I also earned my certificate in Front-End Web Development
-        at Harvard Extension School. All the while, I volunteered to lead high
-        school and university students in the development of websites for
+        with others. I also earned a certificate in Front-End Web Development
+        from Harvard Extension School. All the while, I volunteered to lead high
+        school and college students in the development of websites for
         non-profits. As I am freelancing as a frontend web developer, I am
         searching for a software engineer role so that I can use and develop
         technologies that will improve the daily lives of many people.
       </p>
     </div>
     <div id="skills">
-      <div id="skills-background"><h2>Skills</h2></div>
+      <div id="skills-background"><h2>SKILLS</h2></div>
       <p>JavaScript, HTML5, CSS3, Node/Express, React/Redux, SQL/Sequelize</p>
       <img alt="skills" src="/images/skills.jpg" />
+
+      <p>Currently learning: Swift 5, Ember</p>
+        <div id="currently-learning">
+          <img alt="swift5" src="/images/Swift_logo.png" />
+          <img alt="ember" src="/images/emberjs.png" />
+        </div>
     </div>
     <div id="projects">
-      <div id="projects-background"><h2>Projects</h2></div>
+      <div id="projects-background"><h2>PROJECTS</h2></div>
       <div class="dark-background">
         <div class="project-box">
           <h3>Scrapbook Studio</h3>
@@ -252,7 +261,7 @@
           document.body.scrollTop > 500 ||
           document.documentElement.scrollTop > 500
         ) {
-          document.getElementById("navbar").style.backgroundColor = "black";
+          document.getElementById("navbar").style.backgroundColor = "#DCA17B";
         } else {
           document.getElementById("navbar").style.backgroundColor =
             "transparent";

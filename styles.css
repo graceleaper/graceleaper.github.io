@@ -72,10 +72,15 @@ a:hover {
   color: slategray;
 }
 
+#header-name {
+  font-size: 2.5em;
+}
+
 h2 {
   text-align: center;
-  font-size: 2.5em;
   color: white;
+  font-size: 2em;
+  letter-spacing: 0.4em;
 }
 
 h3 {
@@ -103,8 +108,9 @@ h3 {
 }
 
 #about p {
-  column-count: 2;
+  padding-top: 50px;
   font-family: "Muli", sans-serif;
+  margin: auto;
 }
 
 iframe {
@@ -119,13 +125,13 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   margin-right: -8px;
   margin-left: -8px;
 }
 
 #skills-background h2 {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 #skills img {
@@ -133,6 +139,18 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#currently-learning {
+  width: 20%;
+  display: flex;
+  margin: auto;
+}
+
+
+#currently-learning img {
+  width: 40%;
+  justify-content: space-between;
 }
 
 #skills p {
@@ -146,7 +164,7 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   margin-right: -38px;
   margin-left: -38px;
 }
@@ -157,7 +175,7 @@ hr {
 }
 
 #projects-background h2 {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 #projects {
@@ -232,13 +250,13 @@ button a:visited {
 
   #down-arrow {
     padding-top: 120px;
-    width: 50px;
+    width: 30px;
   }
 
   #projects img,
   #skills-background,
   #projects-background {
-    height: 100%;
+    height: 200px;
     margin-right: -8px;
     margin-left: -8px;
   }
@@ -261,11 +279,24 @@ button a:visited {
   }
 
   #skills-background h2 {
-    padding-top: 50px;
+    padding-top: 90px;
+    font-size: 1.5em;
+  }
+  
+  #currently-learning {
+    width: 25%;
+    display: flex;
+    margin: auto;
+  }
+  
+  #currently-learning img {
+    width: 45%;
+    justify-content: space-evenly;
   }
 
   #projects-background h2 {
-    padding-top: 50px;
+    padding-top: 90px;
+    font-size: 1.5em;
   }
 
   iframe {
@@ -293,6 +324,10 @@ button a:visited {
 @media only screen and (orientation: landscape) {
   #header, #skills-background, #projects-background {
     background-attachment: scroll;
+  }
+
+  #header-name {
+    padding-top: 150px;
   }
 
   #down-arrow {
