@@ -134,7 +134,7 @@ iframe {
   padding-top: 150px;
 }
 
-#skills img {
+#list-of-skills {
   width: 600px;
   display: block;
   margin-left: auto;
@@ -142,15 +142,10 @@ iframe {
 }
 
 #currently-learning {
-  width: 20%;
-  display: flex;
-  margin: auto;
-}
-
-
-#currently-learning img {
-  width: 40%;
-  justify-content: space-between;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #skills p {
@@ -274,24 +269,17 @@ button a:visited {
     margin-right: auto;
   }
 
-  #skills img {
+  #list-of-skills {
     width: 80%;
+  }
+
+  #currently-learning {
+    width: 40%;
   }
 
   #skills-background h2 {
     padding-top: 90px;
     font-size: 1.5em;
-  }
-  
-  #currently-learning {
-    width: 25%;
-    display: flex;
-    margin: auto;
-  }
-  
-  #currently-learning img {
-    width: 45%;
-    justify-content: space-evenly;
   }
 
   #projects-background h2 {
