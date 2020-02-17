@@ -229,20 +229,9 @@ button a:visited {
   margin-right: auto;
 }
 
-video {
-  display: block;
-  margin: 0 auto;
-  width: 60%
-}
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 780px) {
-  video {
-    display: block;
-    margin: 0 auto;
-    width: 94%
-  }
 
   #header {
     background-image: url("/images/header.jpg");
