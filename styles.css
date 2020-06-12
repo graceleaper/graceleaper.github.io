@@ -223,6 +223,10 @@ button a:visited {
   margin-bottom: 30px;
 }
 
+.contact-link {
+  text-decoration: none;
+}
+
 #contact img {
   margin-top: -90px;
   margin-left: auto;
